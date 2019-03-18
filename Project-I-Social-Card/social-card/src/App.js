@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-
-import Header from './components/HeaderComponents';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+//import Footer from './components/FooterComponents/Footer.js';
+import CardContainer from './components/CardComponents/CardContainer.js'
 
 const App = () => {
   return (
-    <div className="App">
-    <Header />
+    <div>
+      <HeaderContainer />
+      <CardContainer />
+      <CardContent />
+      {/* <footer />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -19,12 +23,12 @@ const App = () => {
           Don't forget to `default export` your components and import them here
           inside of this file in order to make them work.
         </strong>
-      </p>
+      </p> */}
     </div>
   );
 };
 
 export default App;
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);

@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.header-container {
+    width: 750px;
+    height: auto;
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid grey
+}
+.header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: darkgrey;
+}
+.header-content {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.25em;
+}
+.image-thumbnail {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}

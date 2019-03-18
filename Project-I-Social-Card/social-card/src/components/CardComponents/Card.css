@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+.cardContain {
+    display:flex;
+    justify-items: end;
+    width: 90%;
+    height: 100%;
+    margin: 0 0 0 10%;
+    border: 1 px solid red;
+}
+
+.cardContain a {
+    text-decoration: none;
+    color: black;
+}
+
+.Banner img {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+}
+
+.bottom {
+    display: block;
+    width: 92.5%;
+    margin-left: auto;
+    border: 1px solid grey;
+}
