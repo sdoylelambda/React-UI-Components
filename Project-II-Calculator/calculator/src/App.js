@@ -3,10 +3,16 @@ import './App.css';
 import '../src/components/ButtonComponents/ActionButton';
 import '../src/components/ButtonComponents/NumberButton';
 import '../src/components/DisplayComponents/CalculatorDisplay';
+import CalculatorDisplay from '../src/components/DisplayComponents/CalculatorDisplay';
 
-const App = () => {
+class App extends React.Component {
+  render() {
   return (
-    <div>
+    <div className="calculator-wrapper">
+      <div className="NumberButton">
+        <CalculatorDisplay />
+      </div>
+  
       <h3>Welcome to React Calculator ya knooo</h3>
       <p>
         We have given you a starter project. You'll want to build out your
@@ -19,8 +25,13 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-    </div>
+      </div>
   );
 };
+}
 
 export default App;
+
+
+// const rootElement = document.getElementById('root');
+// ReactDOM.render(<App />, rootElement);
