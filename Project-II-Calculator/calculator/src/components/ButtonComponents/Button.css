@@ -5,17 +5,19 @@
 
 .number-button {
   width: 100px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid darkgrey;
+  background-color: darkgrey;
 }
 
 .three-quarter-button {
   width: 300px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid rgb(194, 194, 194);
+background-color: lightgrey;
 }
 
 .red-button {
-  background: #9e0523;
-  color: #ffffff;
+  background: red;
+  color: white;
   text-align: center;
   line-height: 100px;
   font-size: 50px;
@@ -26,6 +28,7 @@
   line-height: 100px;
   font-size: 50px;
   font-weight: 200;
+  background-color: lightgrey;
 }
 
 .three-text {
