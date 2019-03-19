@@ -1,0 +1,12 @@
+.calc-total {
+    height: 100px;
+    width: 390px;
+    background: black;
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+    padding: 5px;
+    text-align: right;
+  }
+
+  
