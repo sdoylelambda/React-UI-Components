@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './App.css';
 
 import Header from './components/HeaderComponents/HeaderContainer';
+import HeaderContent from './components/HeaderComponents/HeaderContent';
+import CardContent from './components/CardComponents/CardContent'
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import CardImageThumbnail from './components/CardComponents/CardImageThumbnail';
 
 const App = () => {
   return (
     <div className="App">
+    <ImageThumbnail />
     <Header />
+    <HeaderContent />
+    <CardImageThumbnail />
+    <CardContent />
+
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
