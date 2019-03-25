@@ -7,14 +7,28 @@
     height: 10px;
 }
 
+.header {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    align-items: center;
+    border-spacing: 20px;
+
+}
+
 .headerContent {
     color: red;
-    width: 70%;
+    border-bottom: solid blue;
     margin-left: 150px;
+    margin-right:350px;
 }
 
 html {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
+    margin-right: 450px;
+    border-left: solid blue;
+    border-right: solid blue;
 }
