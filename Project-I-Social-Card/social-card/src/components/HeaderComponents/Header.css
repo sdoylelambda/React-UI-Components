@@ -9,7 +9,8 @@
 }
 
 .header {
-    color: blue;
+    color: rgb(67, 63, 63);
+    font-size: .5rem;
     display: flex;
     flex-direction: row;
     margin-left: 150px;
@@ -18,8 +19,14 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: rgb(162, 154, 154);
+}
+
 .headerContent {
-    color: red;
+    color: rgb(67, 63, 63);
+    text-decoration: none;
     border-bottom: solid blue;
     margin-left: 150px;
     margin-right:10px;
