@@ -2,7 +2,11 @@ import React from 'react';
 import './Header.css';
 
 const ImageThumbnail = () => {
-    return <a href="favicon.ico"><img src="favicon.ico" alt="image goes here"/></a>
+    return (
+    <div className="lambdaLogo">
+        <img src="https://ibin.co/3whrpKSBbZ81" alt="Lambda"/>
+    </div>
+    )
 }
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const CardImageThumbnail = () => {
-    return <a href="favicon.ico"><img src="favicon.ico" alt="favicon image"/></a>
+    return <img src="favicon.ico" alt="favicon" width="500" height="600"/>
 }
 
 export default CardImageThumbnail;
