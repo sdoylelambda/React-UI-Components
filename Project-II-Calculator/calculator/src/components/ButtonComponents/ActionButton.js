@@ -6,9 +6,7 @@ const actions = [ "clear", "*", "/","-","+","=" ];
 const ActionButton = () => {
     return (
        <div className="actionButton">
-            {actions.map(x => x) }
-           
-
+            {actions.map(x => <div className="individualButtons">{x}</div>) }
        </div>
     )
 }
