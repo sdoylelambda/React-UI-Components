@@ -9,11 +9,13 @@ const App = () => {
   return (
     <div>
 
-      <div>
-       <CalculatorDisplay />
+      <div className="calculatorWrapper">
+      <CalculatorDisplay />
+        <div className="contentWrapper">
+        
         <NumberButton />
         <ActionButton />
-        
+        </div>
       </div>
     
     </div>

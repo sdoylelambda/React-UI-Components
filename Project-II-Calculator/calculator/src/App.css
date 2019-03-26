@@ -1,0 +1,6 @@
+.contentWrapper {
+    
+    background-color: lightgrey;
+    display: flex;
+  flex-flow: row wrap;
+}
