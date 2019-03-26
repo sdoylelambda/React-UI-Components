@@ -3,9 +3,10 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .App {
-  color: green;
+  
+  border: solid red;
 }
 
 .testing {
-  font-size: 500px;
+  border: solid red;
 }

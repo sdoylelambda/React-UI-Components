@@ -1,9 +1,9 @@
 /* All styles for your header Components live here */
 
 .lambdaLogo {
-    border-top: solid blue;
+    /* border: solid blue;
     border-left: solid blue;
-    border-right: solid blue;
+    border-right: solid blue; */
     width: 70%;
     height: 10px;
 }
@@ -27,7 +27,7 @@ a {
 .headerContent {
     color: rgb(67, 63, 63);
     text-decoration: none;
-    border-bottom: solid blue;
+    border: solid blue;
     margin-left: 150px;
     margin-right:10px;
     border-right: solid blue;
@@ -38,7 +38,8 @@ html {
     flex-direction: row;
     align-content: flex-start;
     margin-right: 600px;
-    border-left: solid blue;
+    border: solid blue;
     border-right: solid blue;
+    font-size: .5rem;
 }
 

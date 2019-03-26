@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.scss';
+
 
 import Header from './components/HeaderComponents/HeaderContainer';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
@@ -8,6 +8,8 @@ import CardContent from './components/CardComponents/CardContent'
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import CardImageThumbnail from './components/CardComponents/CardImageThumbnail';
 import CardBanner from './components/CardComponents/CardBanner';
+import CardContainer from './components/CardComponents/CardContainer';
+import './App.css';
 
 const App = () => {
   return (
@@ -16,10 +18,8 @@ const App = () => {
         <ImageThumbnail />
         <Header />
         <HeaderContent />
-        <CardImageThumbnail />
-        <CardContent />
-        <CardBanner />
       </div>
+        <CardContainer />
     </div>
   );
 };
