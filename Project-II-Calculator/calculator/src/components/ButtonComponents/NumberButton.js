@@ -5,12 +5,8 @@ const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const NumberButton = () => {
     return (
-    // <div className="numberButton">"NumberButton"</div>
-    <div>
-        {numbers.map(x => x) };
-            
-    
-
+    <div className="numberButton">
+        {numbers.map(x => x) }
     </div>
     )
 }

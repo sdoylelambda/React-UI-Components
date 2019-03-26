@@ -5,7 +5,9 @@ html {
 }
 
 .numberButton {
-    color: blue
+    color: blue;
+    font-size: 75px;
+    border: solid black;
 }
 
 .calculatorDisplay {

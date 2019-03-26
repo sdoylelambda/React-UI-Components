@@ -1,13 +1,17 @@
 import React from 'react';
 import './Button.css';
 
+const actions = [ "clear", "*", "/","-","+","=" ];
 
 const ActionButton = () => {
     return (
-        <p>"ActionButton"</p>
+       <div className="actionButton">
+            {actions.map(x => x) }
+           
+
+       </div>
     )
 }
 
 export default ActionButton;
 
-// clear, *, /,-,+,=
