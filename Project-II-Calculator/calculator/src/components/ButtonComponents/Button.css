@@ -2,6 +2,8 @@ html {
     width: 450px;
     margin-left: 100px;
     margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .actionButton {
@@ -32,7 +34,7 @@ html {
     width: 100px;
     text-align: center;
   
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .individualNumbers {
@@ -41,4 +43,5 @@ html {
     content: center;
     text-align: center;
     display: inline-block;
+    flex-direction: row-reverse;
 }
