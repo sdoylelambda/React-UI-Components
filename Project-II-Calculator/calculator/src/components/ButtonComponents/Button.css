@@ -4,10 +4,16 @@ html {
     margin-top: 20px;
 }
 
+.actionButton {
+    color: red;
+    font-size: 80px;
+}
+
 .numberButton {
     color: blue;
-    font-size: 75px;
+    font-size: 80px;
     border: solid black;
+    max-width: 400px;
 }
 
 .calculatorDisplay {
@@ -25,7 +31,8 @@ html {
     border: solid black;
     width: 100px;
     text-align: center;
-    display: inline-block;
+  
+    flex-direction: column;
 }
 
 .individualNumbers {
