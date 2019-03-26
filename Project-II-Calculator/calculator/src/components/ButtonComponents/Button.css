@@ -1,5 +1,5 @@
 html {
-    width: 600px;
+    width: 550px;
     margin-left: 100px;
     padding-top: 20px;
     display: flex;
@@ -8,15 +8,15 @@ html {
 }
 
 .actionButton {
-    color: red;
+    color: white;
+    background-color: rgb(154, 28, 28);
     font-size: 80px;
 }
 
 .numberButton {
-    color: blue;
     font-size: 80px;
     border: solid black;
-    max-width: 400px;
+    width: 318px;
 }
 
 .calculatorDisplay {
@@ -39,7 +39,7 @@ html {
 }
 
 .individualNumbers {
-    border: solid blue;
+    border: solid black;
     width: 100px;
     content: center;
     text-align: center;

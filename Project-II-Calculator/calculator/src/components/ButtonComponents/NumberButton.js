@@ -3,7 +3,7 @@ import './Button.css';
 
 const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 
-const NumberButton = () => {
+function NumberButton(props) {
     return (
     <div className="numberButton">
         {numbers.map(x => <div className="individualNumbers">{x}</div>) }

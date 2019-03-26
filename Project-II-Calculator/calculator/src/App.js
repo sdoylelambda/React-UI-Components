@@ -10,11 +10,10 @@ const App = () => {
     <div>
 
       <div className="calculatorWrapper">
-      <CalculatorDisplay />
+        <CalculatorDisplay />
         <div className="contentWrapper">
-        
-        <NumberButton />
-        <ActionButton />
+          <NumberButton />
+          <ActionButton />
         </div>
       </div>
     
