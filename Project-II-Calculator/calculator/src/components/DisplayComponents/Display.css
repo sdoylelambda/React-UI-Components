@@ -1,0 +1,9 @@
+.numberButton {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.individualButton {
+    width: 33%;
+}

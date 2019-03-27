@@ -11,6 +11,8 @@ html {
     color: white;
     background-color: rgb(154, 28, 28);
     font-size: 80px;
+    padding-top:3px;
+    
 }
 
 .numberButton {
